@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en-in">
+  <head>
+     <title>Header Design</title>
+     <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+     <style>
+        .brand-name {
+            font-size: 30px;
+            font-weight: bold;
+			padding: 10px;
+
+        }
+        nav span {
+            font-size: 22px;
+            margin-right: 20px;
+
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            background-color:white;
+            color:black;
+			padding: 20px;
+            font-family: sans-serif;
+        }
+		section {
+			height: 800%;
+			padding-bottom: 50px;
+		}
+		.holiday {
+			height: 50%;
+			justify-content: center;
+			text-align: center;
+			padding: 1px;
+			padding-left: 20px;
+
+		}
+		.title {
+			width: 100%;
+			height: 30;
+			background-color: black;
+			color:white;
+			padding-top: 5px;
+		}
+		.container {
+			display: flex;
+			padding-top: 20px;
+
+
+		}
+		.card {
+			width: 100%;
+			height: 500px;
+			background-image: url(./images/freewomen.jpg);
+			background-size: cover;
+			padding-right: 50px;
+
+		}
+		.box {
+			height: 100%px;
+			width: 400px;
+			font-size: 25px;
+			display: grid;
+			grid-template-columns:6fr 6fr ;
+			justify-content: center;
+			padding-top: 150px;
+			text-align: right;
+			color:black;
+			font-family: sans-serif;
+		}
+		.h1 {
+			font-size: 50px;
+			color:black;
+			font-family:sans-serif;
+		}
+		.card1 {
+			width: 100%;
+			height: 500px;
+			background-image: url(./images/Mensnew.jpg);
+			background-size: cover;
+			padding-right: 50px;
+
+
+		}
+		.box1 {
+			height: 200px;
+			width: 400px;
+			font-size: 25px;
+			display: flex;
+			justify-content: center;
+			padding-top: 150px;
+			text-align: right;
+			color:black;
+			font-family:sans-serif
+		}
+		.card2 {
+			width: 120%;
+			height: 500px;
+			background-image: url(./images/kids4.jpeg);
+			background-size: cover;
+			padding-right: 30px;
+
+
+		}
+		.box2 {
+			height: 200px;
+			width: 400px;
+			font-size: 25px;
+			display: flex;
+			justify-content: center;
+			padding-top: 150px;
+			text-align: right;
+			color:black;
+			font-family:sans-serif;
+		}
+		.shop {
+			height: 40px;
+			width: 160px;
+			font-size: 20px;
+			padding-right: 20px;
+			background-color: white;
+			color: grey;
+			display: flex;
+			justify-content: center;
+			text-align: left;
+			margin-bottom: 10px;
+			padding-top: 20px;
+
+		}
+		button {
+			margin-left: 90px;
+			margin-right: 90px;
+			height: 50px;
+			width: 50%;
+			justify-content: space-between;
+			text-align: center;
+		}
+		.sh-button {
+			display: flex;
+			margin-bottom: 80px;
+		}
+		.b {
+			text-align: center;
+			margin-bottom: 20px;
+			padding-bottom: 50px;
+
+		}
+		.container2 {
+			padding-top: 20px;
+			display: flex;
+			justify-content: space-between;
+			text-align: center;
+			margin: 2px;
+			font-size: 20px;
+			font-family: sans-serif;
+		}
+		.div {
+			margin: 2px;
+		}
+		i {
+			color: goldenrod;
+		}
+		.container3 {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+		}
+		.headline {
+            margin: 20px;
+		}
+		h1 {
+			font-size: 40px;
+			font-family:sans-serif;
+
+		}
+		.container4 {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+		}
+		.card3 {
+			width: 90%;
+			height: 400px;
+			background-image: url(./images/bag\ collection1.jpg);
+			background-size: cover;
+			margin: 30px;
+			margin-right: 30x;
+			margin-left: 30px;
+			justify-content: space-between;
+			padding-top: 20px;
+		}
+		.h1 {
+			font-size: 20px;
+		}
+		.box3 {
+			height: 500px;
+			width: 450px;
+			margin: 20px;
+			font-size: 25px;
+			display: flex;
+			justify-content:space-between;
+			padding-top: 150px;
+			margin-left: 10px;
+			text-align: right;
+			color:white;
+			font-family:sans-serif;
+		}
+		.card4 {
+			width: 90%;
+			height: 400px;
+			background-image: url(./images/printed\ mens\ shirt.jpg);
+			background-size: cover;
+			margin: 30px;
+			margin-right: 30x;
+			margin-left: 30px;
+			justify-content: space-between;
+			padding-top: 20px;
+		}
+		.box4 {
+			height: 600px;
+			width: 450px;
+			font-size: 25px;
+			display: flex;
+			justify-content: center;
+			padding-top: 150px;
+			text-align: right;
+			color:white;
+			font-family:sans-serif;
+		}
+		.card5 {
+			width: 90%;
+			height: 400px;
+			background-image: url(./images/basic\ women\ dress.jpg);
+			background-size: cover;
+			margin: 30px;
+			margin-right: 30x;
+			margin-left: 30px;
+			justify-content: space-between;
+			padding-top: 20px;
+		}
+		.box5 {
+			height: 600px;
+			width: 450px;
+			font-size: 25px;
+			display: flex;
+			justify-content: center;
+			padding-top: 150px;
+			text-align: right;
+			color:white;
+			font-family:sans-serif;
+		}
+		.container5 {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+
+		}
+		nav {
+			display: flex;
+			justify-content: center;
+			text-align: center
+		}
+		u {
+			color: orangered;
+		}
+		.object {
+            display: grid;
+		    grid-template-columns: 2fr 2fr 2fr 2fr ;
+			align-items: center;
+			padding-top: 60px;
+			margin: 20px;
+		}
+		.container6 {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+		}
+		.text {
+			font-size: 20px;
+		}
+		.container7 {
+			display: flex;
+			justify-content: space-between;
+			text-align: center;
+		}
+		.card6 {
+			width: 100%;
+			height: 650px;
+			background-image: url(./images/footwearbanner.jpg);
+			background-size: cover;
+			margin: 30px;
+			margin-right: 30x;
+			margin-left: 30px;
+			justify-content: space-between;
+			padding-top: 20px;
+		}
+		.box6 {
+			height: 600px;
+			width: 450px;
+			font-size: 25px;
+			display: flex;
+			justify-content: center;
+			padding-top: 150px;
+			text-align: right;
+			color:black;
+			font-family:sans-serif;
+		}
+		.container8 {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+		}
+		.container9 {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+		}
+		.sub-foot {
+			display: grid;
+			grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+			padding-top: 30px;
+
+		}
+		footer{
+            background-color: black;
+			background-size: 200%;
+            color:white;
+            font-family:Segoe UI;
+			height: 200%;
+            font-size: 20px;
+            padding: 14px;
+            display: grid;
+            grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+            }
+            .footer-brand {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            }
+            .social-bar span {
+            margin-right: 10px;
+            color:grey;
+            }
+            .footer-title {
+            font-weight: bold;
+            margin-bottom: 20px;
+            }
+            .footer-title~div {
+            margin-bottom: 20px;
+            color:gray;
+            }
+			.arrow {
+				display: grid;
+				grid-template-columns: 4fr 4fr 4fr;
+				text-align: center;
+				margin-top: 70px;
+			}
+			.arrow1 {
+				background-color: aliceblue;
+				text-align: center;
+				width: 150px;
+				margin-left: 40px;
+				border: 3px grey;
+
+			}
+
+     </style>
+  </head>
+  <body>
+       <header>
+          <div>
+             <span class="brand-name">Shopper.</span>
+          </div>
+          <div>
+             <nav>
+                <span>Home</span>
+                <span>Catalog</span>
+                <span>Shop</span>
+                <span>Pages</span>
+                <span>Blog</span>
+                <span>Docs</span>
+             </nav>
+          </div>
+          <div>
+             <nav>
+                <span class="bi bi-search"></span>
+                <span class="bi bi-person"></span>
+                <span class="bi bi-heart"></span>
+                <span class="bi bi-cart"></span>
+             </nav>
+          </div>
+       </header>
+	<section>
+		<div class="title">
+			<div class="holiday">
+				<p>⚡️ HAPPY HOLIDAY DEALS ON EVERYTHING ⚡️</p>
+			</div>
+        </div>
+		<div class="container">
+			<div>
+				<div class="card">
+					<div class="box">
+						<h1>Women</h1>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="card1">
+					<div class="box1">
+						<h1>Men</h1>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="card2">
+					<div class="box2">
+						<h1>kids</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container2">
+			<div>
+				<div><i class="bi bi-truck"></i>FREE SHIPPING &nbsp; </div>
+				<p style="color:grey;">From all orders over $100</p>
+			</div>
+			<div>
+				<div><i class="bi bi-arrow-left-right"></i>FREE RETURNS &nbsp;</div>
+				<p style="color:grey;">Return money within 30 days</p>
+			</div>
+			<div>
+				<div><i class="bi bi-lock"></i>SECURE SHOPPING &nbsp;</div>
+				<p style="color:grey;">You're in safe hands </p>
+			</div>
+			<div>
+				<div><i class="bi bi-tag"></i>OVER 10,000 STYLES &nbsp;</div>
+				<p style="color:grey;">We have everything you need</p>
+			</div>
+		</div>
+		<hr>
+		<div class="container3">
+			<div>
+				<p style="color:grey;">NEW COLLECTION<br><h1>Best Picks 2019</h1></p>
+				<p style="color:grey;">Appear, dry there darkness they're seas, dry waters thing fly midst. Beast,<br>above fly brought Very green.</p>
+			</div>
+		</div>
+		<div class="container4">
+			<div>
+				<div class="card3">
+					<div class="box3">
+						<h1>Bag collection</h1>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div>
+				<div class="card4">
+					<div class="box4">
+						<h1>Mens printed shirts</h1>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="card5">
+					<div class="box5">
+						<h1>Basic Women Dress</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container5">
+			<h1>Top Month Sellers</h1>
+		</div>
+		<div>
+			<nav>
+				<span><u>Women</u></span>
+				<span>Men</span>
+				<span>kids</span>
+			</nav>
+		</div>
+		<div class="object">
+			<div>
+				<img src="./images/mid heel1.jpg" height="300px" >
+				<div>
+					<p style="color:grey ;">Shoes
+						Leather mid-heel Sandals
+						$129.00</p>
+				</div>
+			</div>
+			<div>
+				<img src="./images/women cloth printed.jpg" height="300px" >
+				<div>
+					<p style="color:grey ;">Dresses
+						Cotton floral print Dress
+						$40.00</p>
+				</div>
+			</div>
+			<div>
+				<img src="./images/leather sneakars.jpg" height="300px" >
+				<div>
+					<p style="color:grey ;">Shoes
+						Leather Sneakers
+						$85.00 $85.00</p>
+				</div>
+			</div>
+			<div>
+				<img src="./images/croped cotton top.jpg" height="300px" >
+				<div>
+					<p style="color:grey ;">Tops
+						Cropped cotton Top
+						$29.00</p>
+				</div>
+			</div>
+			<div>
+				<img src="./images/floral print.jpg" height="300px" >
+				<div>
+					<p style="color:grey ;">Dresses
+						Floral print midi Dress
+						$50.00</p>
+				</div>
+			</div>
+			<div>
+				<img src="./images/cross body bag.jpg" height="300px" >
+				<div>
+					<p style="color:grey ;">Bags
+						Suede cross body Bag
+						$79.00 $49.00</p>
+				</div>
+			</div>
+			<div>
+				<img src="./images/a line printed.jpg" height="300px" >
+				<div>
+					<p style="color:grey ;">Skirts
+						Printed A-line Skirt
+						$79.00</p>
+				</div>
+			</div>
+			<div>
+				<img src="./images/heel stippy.jpg" height="300px" >
+				<div>
+					<p style="color:grey ;">Shoes
+						Heel strappy Sandals
+						$90.00</p>
+				</div>
+				<br>
+			</div>
+		</div>
+		<div class="container6">
+			<div class="text">
+				<p>Discover more</p>
+				<hr>
+			</div>
+		</div>
+		<div class="container7">
+			<div class="card6">
+				<div class="box6">
+					<strong>Get -50% from
+						Summer Collection</strong>
+			    </div>
+			</div>
+		</div>
+		<div class="container8">
+			<div>
+				<p style="color:grey;">WHAT BUYERS SAY<br><h1>Latest buyers Reviews</h1></p>
+			</div>
+		</div>
+		<div class="container9">
+			<div>
+				<h1>@shopper</h1>
+				<p style="color:grey;">
+					Appear, dry there darkness they're seas, dry waters</p>
+			</div>
+		</div>
+		<div class="sub-foot">
+			<div>
+				<img src="./images/product-1.jpg" height="180px" >
+			</div>
+			<div>
+				<img src="./images/product-2.jpg" height="180px" >
+			</div>
+			<div>
+				<img src="./images/product-3.jpg" height="180px" >
+			</div>
+			<div>
+				<img src="./images/product-4.jpg" height="180px" >
+			</div><div>
+				<img src="./images/product-5.jpg" height="180px" >
+			</div><div>
+				<img src="./images/product-6.jpg" height="180px" >
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div>
+			<div class="footer-brand">Shopper.</div>
+			<div class="social-bar">
+				<span class="bi bi-facebook"></span>
+				<span class="bi bi-twitter"></span>
+				<span class="bi bi-instagram"></span>
+				<span class="bi bi-youtube"></span>
+			</div>
+		</div>
+		<div>
+			<div class="footer-title">SUPPORT</div>
+			<div>Contact Us</div>
+			<div>FAQs</div>
+			<div>Size Guide</div>
+			<div>Shipping & Returns</div>
+		</div>
+		<div>
+			<div class="footer-title">SHOP</div>
+			<div>Men's Shopping</div>
+			<div>Women's Shopping</div>
+			<div>Kids' Shopping</div>
+			<div>Discounts</div>
+		</div>
+		<div>
+			<div class="footer-title">COMPANY</div>
+			<div>Our Story</div>
+			<div>Careers</div>
+			<div>Terms & Conditions</div>
+			<div>Privacy & Cookie policy</div>
+		</div>
+		<div>
+			<div class="footer-title">CONTACT</div>
+			<div>1-202-555-0105</div>
+			<div>1-202-555-0106</div>
+			<div>help@shopper.com</div>
+		</div>
+
+	</footer>
+  </body>
+</html>
